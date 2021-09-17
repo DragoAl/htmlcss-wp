@@ -3,6 +3,10 @@
     padding:0;
     box-sizing: border-box;
 }
+body{
+    font-family: 'Montserrat', sans-serif;
+}
+
 .conteiner{
     width: 80%;
     margin: 0 auto;
@@ -35,6 +39,16 @@ header{
     border-left: 2px solid #f9f9f9;
     margin-left: 10px;
     
+}
+#menu a, li{
+    margin-top: 10px;
+    margin-right: 8px;
+    display: inline-block;
+    text-decoration: none;
+    color: #a4a4a4;
+    font-size: 12px;
+
+
 }
 #jumbotron{
     width: 100%;
