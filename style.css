@@ -5,6 +5,8 @@
 }
 body{
     font-family: 'Montserrat', sans-serif;
+    color: #a4a4a4;
+
 }
 
 .conteiner{
@@ -21,6 +23,8 @@ body{
     display: table;
     clear: both;
 }
+
+/* header and menu section */
 header{
     width: 100%;
     height: 100px;
@@ -50,15 +54,23 @@ header{
 
 
 }
+
+/* jumbotron section */
+.img-settings{
+    background-position: center;
+    background-size: cover;
+    border-radius: 10px;
+
+}
 #jumbotron{
     width: 100%;
     margin-top: 2%;
     margin-bottom: 2%;
     height: 500px;
     background-image: url(img/banner.jpg);
-    background-position: center;
+    /* background-position: center;
     background-size: cover;
-    border-radius: 10px;
+    border-radius: 10px; */
     
     /* debug */
     /* background-color:rgba(225,214,122,255); */
@@ -84,43 +96,104 @@ header{
     font-size: 14px;
 }
 
+/* main section title */
+.title{
+    width: 100%;
+    margin-bottom: 1.5%;
+
+    
+    /* debug */
+    /* height: 50px;
+    background-color:#abcfe7; */
+
+}
+.title h1{
+    font-size: 30px;
+    color: black;
+
+}
+
+/* main section body */
 .clearfix{
     /* debug */
-    background-color: #0086ff;
+    /* background-color: #0086ff; */
 }
 .slot{
     float: left;
+    position: relative;
     
     /* debug */
-    background-color: #abcfe7;
+    /* background-color: #abcfe7; */
+}
+.dimension{
+    width: 100%;
+    height: 200px;
+    /* background-color: rgba(0, 0, 0, 0.2);
+    border-radius: 10px; */
+
+
 }
 
 
 .side{
-    width: 24%;
+    width: 22%;
    
     /* debug */
     height: 300px;
 
 }
+/* .img-settings{
+    width: 100%;
+    height: 200px;
+    background-image: url(img/img-1.jpg);
+     background-size: cover;
+    background-position: center;
+    border-radius: 10px; 
+} */
+#img-sideleft{
+    background-image: url(img/img-1.jpg);
+    
+
+    
+
+
+}
+#img-sideright{
+    background-image: url(img/img-3.jpg);
+    
+
+}
 .maintext{
-    width: 50%;
+    width: 54%;
     margin:0 1%;
     
     /* debug */
     height: 300px;
     
 }
-
-.title{
-    width: 100%;
-    margin-bottom: 1.5%;
-    
-    /* debug */
-    height: 50px;
-    background-color:#abcfe7;
+#img-main{
+    background-image: url(img/banner-2.jpg);
+}
+#leftbackgroundlayer{
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.2);
+    border-radius: 10px;
 
 }
+#mainbackgroundlayer{
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.2);
+    border-radius: 10px;
+
+}
+#righttbackgroundlayer{
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.2);
+    border-radius: 10px;
+
+}
+
+
 footer{
     width: 100%;
     margin-top: 1.5%;
