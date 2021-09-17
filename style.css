@@ -1,0 +1,93 @@
+*{
+    margin: 0;
+    padding:0;
+    box-sizing: border-box;
+}
+.conteiner{
+    width: 80%;
+    margin: 0 auto;
+    
+    /* debug */
+    /* height: 200px; */
+    /* background-color: aquamarine; */
+
+}
+.clearfix::after{
+    content: "";
+    display: table;
+    clear: both;
+}
+header{
+    width: 100%;
+    height: 100px;
+    
+    /* debug */
+    /* background-color:rgba(229,121,230,255); */
+    /* il margin non ha effetto poichè header è meno importante della classe conteiner */
+}
+#logo img{
+    height: 50px;
+    margin-top: 10px;
+}
+#vertical-line{
+    display: inline-block;
+    height: 50px;
+    border-left: 2px solid #f9f9f9;
+    margin-left: 10px;
+    
+}
+#jumbotron{
+    width: 100%;
+    margin-top: 2%;
+    margin-bottom: 2%;
+    
+    /* debug */
+    height: 300px;
+    background-color:rgba(225,214,122,255);
+}
+.clearfix{
+    /* debug */
+    background-color: #0086ff;
+}
+.slot{
+    float: left;
+    
+    /* debug */
+    background-color: #abcfe7;
+}
+
+
+.side{
+    width: 24%;
+   
+    /* debug */
+    height: 300px;
+
+}
+.maintext{
+    width: 50%;
+    margin:0 1%;
+    
+    /* debug */
+    height: 300px;
+    
+}
+
+.title{
+    width: 100%;
+    margin-bottom: 1.5%;
+    
+    /* debug */
+    height: 50px;
+    background-color:#abcfe7;
+
+}
+footer{
+    width: 100%;
+    margin-top: 1.5%;
+
+    /* debug */
+    height: 50px;
+    background-color: #8801fe;
+
+}
